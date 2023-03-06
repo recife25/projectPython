@@ -1,0 +1,29 @@
+advanceFunctionSepEndparameters
+
+# # Keyword arguments
+# def say_hi(name, title=""):
+#     greeting = "Hi, " + title + " " + name
+#     return greeting
+
+# print(say_hi("Carnegie", "Mr."))
+# print(say_hi("Carnegie"))
+# print(say_hi("Carnegie", title="Mr."))
+
+# ###
+
+# # Variable arguments
+# result = print("Try this!")
+# print(result)
+# print("One", "Two", "Three")
+
+###
+
+# print keyword arguments
+print("One", "Two", "Three", sep=",")
+
+print("One", "Two", "Three", end=" - ")
+print("Four")
+
+print("Hi", "everyone", sep="@")
+print("Hi", "Hello", "Howdy", sep="! ", end="")
+print(":)")
